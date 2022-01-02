@@ -7,7 +7,11 @@ Currently, the opendrop server seems to work quite unstable (even worse than App
 
 However, I managed to successfully transfer photos using it.
 
-
+Resources used:
+[Opendrop](https://github.com/seemoo-lab/opendrop)
+[Owl](https://github.com/seemoo-lab/owl)
+[NixPkgs PR by @WolfangAukang](https://github.com/NixOS/nixpkgs/pull/147127)
+[Nixos-CN flake](https://github.com/nixos-cn/flakes/blob/main/packages/opendrop/default.nix)
 
 Anyway, usage in your configuration.nix:
 ```nix
