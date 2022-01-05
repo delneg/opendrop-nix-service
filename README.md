@@ -29,7 +29,6 @@ in
 {
   imports =
     [
-      ./services/code-server.nix
       ./services/opendrop-server.nix
     ];
   
